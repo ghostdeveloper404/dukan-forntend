@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 🛍️ Dukan – Full-Stack E-commerce Web App
 
-First, run the development server:
+Dukan is a full-featured e-commerce web application built with **Next.js** and **Node.js/Express**, designed to provide a seamless online shopping experience. It supports user authentication (Google OAuth), dynamic product filtering, cart management, wishlist, order placement, and more.
+
+---
+
+### 🚀 Tech Stack
+
+* **Frontend**: Next.js, React.js, Tailwind CSS
+* **Backend**: Node.js, Express.js, MongoDB (Mongoose)
+* **Auth**: Google OAuth 2.0 + JWT
+* **Deployment**: Frontend on Vercel, Backend on Railway
+
+---
+
+### ✨ Features
+
+* 🔐 **User Authentication** with Google OAuth & JWT
+* 🛒 **Cart & Wishlist Management**
+* 📦 **Product Filtering** by category, price, etc.
+* 🧾 **Order Placement** with Checkout
+* 🧠 **Fully RESTful APIs**
+* 🌐 **Environment variable support** for API switching (dev/prod)
+
+---
+
+### 📦 Installation & Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone both frontend & backend
+git clone https://github.com/your-username/dukan-frontend
+git clone https://github.com/your-username/dukan-backend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Frontend
+cd dukan-frontend
+npm install
+npm run dev
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Backend
+cd dukan-backend
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+### 🧪 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+* **Frontend**: [https://dukan-forntend-ltpgjgm50-ghostdeveloper404s-projects.vercel.app](https://dukan-forntend-ltpgjgm50-ghostdeveloper404s-projects.vercel.app)
+* **Backend**: [https://dukan-backend-production.up.railway.app](https://dukan-backend-production.up.railway.app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
